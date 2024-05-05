@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Monitoreo del proceso de propagación vegetal',
+    descripcionCurso:
+      'En el componente “Monitoreo del proceso de propagación vegetal.”, se abordarán temáticas relacionadas con la normatividad ambiental establecida para realizar el monitoreo a la propagación vegetal, según los parámetros correspondientes de calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
     menu: [
@@ -31,13 +22,19 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Normatividad ambiental vigente para la propagación vegetal',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Requerimientos en la Implementación de Viveros y Áreas de Propagación Vegetal',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Calidad del Material Vegetal de Propagación',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +42,27 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Monitoreo y supervisión técnica del proceso de propagación vegetativa',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Monitoreo de Buenas Prácticas Agrícolas',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Documentación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Acciones de mejora para el monitoreo de la propagación vegetal',
         desarrolloContenidos: true,
       },
     ],
@@ -142,8 +153,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +163,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +173,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +198,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
