@@ -10,17 +10,17 @@
         .row.align-items-center.mb-4
           .col-lg-8(data-aos="fade-left")
             p Las acciones de mejora son establecidas, de acuerdo a las acciones correctivas o preventivas, identificadas a través de inconformidades o áreas potenciales de una actividad; que conllevan a fortalecer las áreas de oportunidad para brindar un mejor producto.
-            .cajon.color-secundario.p-4.ps-5.bg_18.mb-4.mb-lg-0
+            .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
               p.m-0 En las actividades de monitoreo se hace necesario identificar, analizar y generar acciones de mejora, que le permita avanzar en cada uno de los procesos donde se evidencian debilidades. Teniendo por ejemplo que algunos de los métodos para evaluar los niveles de sustentabilidad en las actividades de propagación del material vegetal son el marco de evaluación de sustentabilidad con su respectivo monitoreo y evaluación de la sustentabilidad.
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
-              img.img-t.m-auto(src='@/assets/curso/images/tema1/img_1.png', alt='')
+              img.img-t.m-auto(src='@/assets/curso/images/tema3/img_1.png', alt='')
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
             .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
               .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`}"
+                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_2.png')})`}"
               )
               .bloque-texto-g__texto.p-4
                 span.text-bold Marco de Evaluación de Sustentabilidad <br>
@@ -32,7 +32,7 @@
               .bloque-texto-g__texto.p-4.izquierda_70
                 p.mb-0 Ahora bien, los sistemas de manejo sustentables son aquellos que permanecen cambiando, los cuales deben tener la capacidad de ser productivos, de autorregularse y de transformarse, sin perder su funcionalidad; a su vez estas capacidades podrán ser analizadas mediante los atributos o propiedades sistémicas fundamentales que son productividad, resiliencia, confiabilidad, estabilidad, autogestión, equidad y adaptabilidad. (Astier, M., Masera, O. R., & Galván-Miyoshi, Y. 2008. p17-18).
               .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`, 'left':'70%'}"
+                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`, 'left':'70.1%'}"
               )
         
         .row.justify-content-center.align-items-center.mb-5
@@ -40,7 +40,7 @@
 
           .col-2.mb-4
             figure
-              img.img-t.m-auto(src='@/assets/curso/images/tema1/img_1.png', alt='')
+              img.img-t.m-auto.w-50(src='@/assets/curso/images/tema3/img_4.svg', alt='')
           .col-8.mb-4
             p.m-0.mb-3 Algunas de las preguntas clave que permiten un diagnóstico son: 
             ol.lista-ol
@@ -62,21 +62,16 @@
             table
               caption Nota. Sena (2022).
               thead
-                tr.jumbotron-14
-                  th Fecha
-                  th Identificación del área 
-                  th Actividad
-                  th Responsable
-                  th Observaciones
-                  th Firma
+                tr
+                  th.text-center.jumbotron-14 Problemática
+                  th.text-center.jumbotron-13 Indicador
               tbody
                 tr
-                  td 15/09/2022
-                  td Área de crecimiento
-                  td Verificación de plántulas y estado de presencia de hongos en las hojas
-                  td Andrea Vidales
-                  td Verificar la cantidad de agua en el riego diario con el fin de evitar sobrecargas a las plantas.
-                  td             
+                  td.jumbotron-12 Aumento de los hongos en las plantas de propagación. 
+                  td.jumbotron-11 Seguimiento al riego suministrado a las plantas que presentan hongo
+                tr
+                  td.jumbotron-11 Vencimiento de productos fertilizantes
+                  td.jumbotron-12 Cantidad necesaria de fertilizantes x mes
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
@@ -84,7 +79,7 @@
               .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
                 p.mb-0 Teniendo que los indicadores serán definidos de acuerdo a las necesidades y debilidades identificadas por los actores de los procesos económicos, ambientales y sociales; y, el proceso de medición y monitoreo es definido de acuerdo a las variables más adaptables para cada actividad teniendo en cuenta factores como tiempo, análisis de información y/o aplicación de ciertas variables que permita generar un avance direccionado a la sustentabilidad. Para ello observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial, observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial.
               .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`, 'left':'70%'}"
+                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_5.png')})`, 'left':'70.1%'}"
               )
                             
         .row.justify-content-center.align-items-center.mb-5
@@ -94,24 +89,64 @@
               span  Ejemplo de evaluación de sustentabilidad a un vivero de plantas
   
           .tabla-b.col-10
-            table
+            table.text-center
               caption Nota. Sena (2022).
               thead
-                tr.jumbotron-14
-                  th Fecha
-                  th Identificación del área 
-                  th Actividad
-                  th Responsable
-                  th Observaciones
-                  th Firma
+                tr
+                  th.jumbotron-13 Atributos
+                  th.jumbotron-17.texto-secundario Fortalezas y debilidades
+                  th.jumbotron-13 Indicadores
+                  th.jumbotron-17.texto-secundario Valor
               tbody
                 tr
-                  td 15/09/2022
-                  td Área de crecimiento
-                  td Verificación de plántulas y estado de presencia de hongos en las hojas
-                  td Andrea Vidales
-                  td Verificar la cantidad de agua en el riego diario con el fin de evitar sobrecargas a las plantas.
-                  td             
+                  td.jumbotron-11.text-bold Productividad
+                  td Incremento de ventas en plantas de ornamentales
+                  td 
+                    ol.lista-ol
+                      li 
+                        span.text-bold - 
+                        |	Rendimiento no. Plantas x mes
+                      li 
+                        span.text-bold - 
+                        |	Ingresos (neto)($semestrales)
+                      li 
+                        span.text-bold -
+                        |	Costos de producción
+                  td.jumbotron-18 Bajo
+                tr
+                  td.jumbotron-11.text-bold Estabilidad, resiliencia, confiabilidad
+                  td 
+                    ol.lista-ol
+                      li 
+                        span.text-bold - 
+                        |	Alto uso de agroquímicos
+                      li 
+                        span.text-bold - 
+                        |	Bajo uso de fertilizantes orgánicos
+                  td Crecimiento de plantas con agroquímicos vs fertilizantes orgánicos
+                  td.jumbotron-19 Medio
+                tr
+                  td.jumbotron-11.text-bold Equidad
+                  td Mala distribución de costos y ventas
+                  td Capacitación de manejo de contabilidad y finanzas
+                  td.jumbotron-14 Alto
+                tr
+                  td.jumbotron-11.text-bold Adaptabilidad
+                  td 
+                    ol.lista-ol
+                      li 
+                        span.text-bold - 
+                        |	Disminución de la mano de obra
+                      li 
+                        span.text-bold - 
+                        |	Pérdida de prácticas ancestrales
+                  td Capacitación de trabajadores con prácticas ancestrales
+                  td.jumbotron-14 Alto
+                tr
+                  td.jumbotron-11.text-bold Autogestión
+                  td Alta dependencia de insumos externos
+                  td Costos de insumos externos por año
+                  td.jumbotron-19 Medio
                  
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
@@ -119,7 +154,7 @@
               .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
                 p.mb-0 Por tanto, en lo referente a la evaluación de sustentabilidad, se tiene que, al conocer las debilidades y fortalezas de cada atributo, definido por el marco de evaluación MESMIS; se logra analizar e identificar la manera correcta de realizar un monitoreo de esa debilidad.  Dado a esto, se definen los indicadores, necesarios para dar un valor de importancia según la actividad del vivero o producto. Y para el caso específico del proceso de propagación de material vegetal, la evaluación de sustentabilidad se puede realizar, por ejemplo, a un vivero de plantas ornamentales de tipo comercial, encontrando que presenta algunas desventajas en las etapas de crecimiento de las plantas y pérdidas económicas.
               .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_1.png')})`, 'left':'70%'}"
+                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_6.png')})`, 'left':'70.1%'}"
               )
           
 </template>
