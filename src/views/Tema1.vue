@@ -42,7 +42,7 @@
       p.mb-3 Debido a que el instituto Colombiano Agropecuario, también es el encargado de desarrollar políticas y planes que protejan la sanidad, producción y productividad agropecuaria del país, a través de diferentes protocolos, estos se establecen para:
       
       figure.mb-3
-        //- img.img-t.m-auto(src='@/assets/curso/images/tema1/img_5.svg', alt='')
+        img.img-t.m-auto.w-75(src='@/assets/curso/images/tema1/img_20.svg', alt='')
       
       p.mb-4 Además, en función de minimizar los riesgos alimentarios y ambientales que provengan del empleo de las actividades de propagación vegetal, el ICA supervisa e inspecciona la condición fitosanitaria, de cultivos y viveros, determinando la importancia económica y social de las plagas y enfermedades con el objeto de realizar, desarrollar y focalizar las campañas de prevención, control y erradicación de estas, conforme el artículo 2.13.1.5.1 del Decreto 1071 de 2015. (ICA,2009, p1).
       
@@ -122,11 +122,59 @@
     p.mb-3 Es de importancia reconocer la funcionalidad de cada área que conforma los procesos de propagación vegetal donde se lleven a cabo las medidas y especificaciones necesarias para generar una sanidad en las plantas, así:
     
     //- maps
-    
+    ImagenInfografica.color-secundario.mb-4
+      template(v-slot:imagen)
+        figure
+          img.img-t.m-auto(src='@/assets/curso/images/tema1/img_21.svg'  alt='')
+
+      .tarjeta.color-secundario.p-3(x="34.5%" y="7.5%" numero="+")
+        .h5.mb-2 Área de injertación
+        p.text-small Es el área donde se ubica y se protege el material vegetal de propagación como lo son las plantas madre, las cuales fueron previamente seleccionadas de acuerdo a sus aspectos fisiológicos, genéticos y de fitosanidad para reproducirlas.
+
+      .tarjeta.color-secundario.p-3(x="63.6%" y="8%" numero="+")
+        .h5.mb-2 Área de Germinación
+        p.text-small Es seleccionada para el proceso de reproducción sexual (semilla) y ubicada para brindar su manejo y condición sanitaria.
+
+      .tarjeta.color-secundario.p-3(x="72%" y="54%" numero="+")
+        .h5.mb-2 Área de Enraizamiento
+        p.text-small Espacio o áreas de terreno seleccionadas para ser cubiertas de plástico y/o polisombra para el enraizamiento de estacas, esquejes, estolones, bulbos. Debe estar libre de enfermedades y plagas.
+        
+      .tarjeta.color-secundario.p-3(x="63%" y="86%" numero="+")
+        .h5.mb-2 Área de Crecimiento
+        p.text-small son destinadas las plantas que superaron el proceso de injertación y superan una altura de 5cm, serán supervisadas de manera permanente en aspectos como riego, nutrición (abonos), insectos, hongos y bacterias que las puedan afectar; luego ser distribuidas según la necesidad.	 
+        
+      .tarjeta.color-secundario.p-3(x="33%" y="86%" numero="+")
+        .h5.mb-2 Área de Descarte
+        p.text-small se deben ubicar, las plantas definidas como no aptas por el productor y/o técnico profesional del ICA según el objetivo del vivero, las cuales normalmente presentan enfermedades, poco desarrollo en tallos y raíces, pequeña altura y condiciones genéticas desfavorables para su función.	 
+        
+      .tarjeta.color-secundario.p-3(x="26%" y="54%" numero="+")
+        .h5.mb-2 Almácigo
+        p.text-small Ubicación de plantas aptas y adecuadas para trasplantar y/o comercializar.
+        
     p.mb-3 Por su parte las áreas de logística son conformadas en un vivero permanente y de tipo comercial y/o institucional, las cuales serán establecidas en una infraestructura sólida y acorde a las necesidades de cada vivero. Entre las cuales se encuentra: 
 
     //- maps
+    ImagenInfografica.color-acento-contenido.mb-4
+      template(v-slot:imagen)
+        figure
+          img.img-t.m-auto.w-50(src='@/assets/curso/images/tema1/img_22.svg'  alt='')
 
+      .tarjeta.color-acento-contenido.p-3(x="44%" y="7.6%" numero="+")
+        .h5.mb-2 Área de Servicios y Oficinas
+        p.text-small Utilizada para la atención a clientes, procesos de compra, desarrollo de protocolos y formatos de actividades, para establecer documentación organizada, limpia y correspondiente a cada actividad, bajo condiciones de calidad en cada requerimiento solicitado por las autoridades competentes.
+
+      .tarjeta.color-acento-contenido.p-3(x="71.6%" y="53%" numero="+")
+        .h5.mb-2 Compostera
+        p.text-small Área de gran importancia entre las buenas prácticas agrícolas donde su fin primordial es preparar, acondicionar y aprovechar los diferentes residuos orgánicos que se generan de procesos del vivero y/o residuos que benefician a las plantas en sus diferentes áreas de propagación. 
+
+      .tarjeta.color-acento-contenido.p-3(x="47%" y="98%" numero="+")
+        .h5.mb-2 Bodega de almacenamiento
+        p.text-small Esta zona debe estar previamente identificada para las herramientas utilizadas en cada actividad de la propagación, las cuales serán almacenadas en condiciones limpias y organizadas; que permita su accesibilidad.	 
+
+      .tarjeta.color-acento-contenido.p-3(x="25.5%" y="54%" numero="+")
+        .h5.mb-2 Área de cuarentena
+        p.text-small Debe estar previamente identificada para los confinamientos de artículos reglamentados, plagas u organismos benéficos para inspección, prueba, tratamiento, observación o investigación definidos por el profesional técnico.
+                
     .row.justify-content-center.align-items-center.mb-5
       .col-2 
         figure
@@ -184,8 +232,6 @@
           .col-md-6
             figure
               img.img-t.m-auto.w-75(src='@/assets/curso/images/tema1/img_18.png', alt='Texto que describa la imagen')
-
-     
      
     .row.justify-content-center.align-items-center.mb-5
       .col-2 
