@@ -204,14 +204,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
+          nombre: 'Tatiana Villamil',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Miguel De Jesús Paredes Maestre',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },
       ],
     },
@@ -222,23 +223,23 @@ export default {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable de Desarrollo Curricular',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Yisela Andrea Vidales Vásquez',
+          nombre: 'Diana Julieth Núñez Ortegón',
           cargo: 'Experta Temática',
-          centro:
-            'Centro de la industria la empresa y los servicios- CIES - Regional Norte de Santander',
+          centro: 'Centro de Comercio y Servicio - Regional Tolima',
         },
         {
-          nombre: 'Leydy Jhuliana Jaramillo Mejía',
-          cargo: 'Diseñador instruccional',
-          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Diseñadora instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
         },
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Asesora Metodológica',
-          centro: 'Centro de Diseño y Metrología  - Distrito Capital',
+          centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
@@ -247,53 +248,72 @@ export default {
         },
       ],
     },
-    // {
-    //   titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-    //   autores: [
-    //     {
-    //       nombre: 'Nombre responsable',
-    //       cargo: 'Diseñador de Contenidos Digitales',
-    //       centro: 'Centro de Servicios de Salud - Regional Antioquia',
-    //     },
-    //     {
-    //       nombre: 'Nombre responsable',
-    //       cargo: 'Desarrollador Fullstack',
-    //       centro: 'Centro de Servicios de Salud - Regional Antioquia',
-    //     },
-    //     {
-    //       nombre: 'Nombre',
-    //       cargo: 'Animador y Producción audiovisual',
-    //       centro: 'Centro de Servicios de Salud - Regional Antioquia',
-    //     },
-    //     {
-    //       nombre: 'Nombre',
-    //       cargo: 'Actividad Didáctica',
-    //       centro: 'Centro de Servicios de Salud - Regional Antioquia',
-    //     },
-    //   ],
-    // },
+    {
+      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Francisco José Lizcano Reyes',
+          cargo: 'Responsable del equipo',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        },
+        {
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Soporte organizacional',
+          centro: 'Centro de Comercio y Servicios Regional Tolima',
+        },
+        {
+          nombre: 'Nelson Vera',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Liborio de Jesús Castañeda Valencia',
+          cargo: 'Desarrollo Fullstack Junior',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Luis Álvarez',
+          cargo: 'Diseño de contenidos digitales',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Alexander Acosta',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Carmen Martínez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+      ],
+    },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Fabian Cuartas',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Gilberto Herrera',
+          cargo: 'Validación de diseño y contenido',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
+          nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },
       ],
     },
