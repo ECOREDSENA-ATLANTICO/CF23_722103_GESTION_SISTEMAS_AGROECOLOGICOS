@@ -90,6 +90,8 @@
         .col-8
           p.m-0 Así mismo, los abonos y fertilizantes empleados deben ser los adecuados para la necesidad que presenta la planta, su medida y método de aplicación, deberá ser la correcta para lograr obtener el componente nutricional que se requiere; igualmente la mano de obra empleada deberá ser realizada con elementos de protección personal y la herramienta necesaria, según las condiciones y tipos de propagación que presente el vivero y/o área del productor. 
       
+      Separador
+      
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.1  Monitoreo de buenas prácticas agrícolas
         
@@ -126,7 +128,7 @@
                   span.text-bold 2. 
                   | Mejorar el bienestar de la Familia Agrícola.
                 li 
-                  span.text-bold 2. 
+                  span.text-bold 3. 
                   | Mejorar la seguridad alimentaria. 
             .col-md-6
               figure
@@ -143,7 +145,7 @@
                   span.text-bold 2. 
                   | Manejo racional de agroquímicos.
                 li 
-                  span.text-bold 2. 
+                  span.text-bold 3. 
                   | Ciudad de la biodiversidad.
             .col-md-6
               figure
@@ -249,6 +251,8 @@
         .tarjeta.color-acento-botones.p-3(x="28%" y="78%" numero="+")
           .h5.mb-2 Residuos No Aprovechables
           p Son depositados en las canecas con color negro y son definidos como agentes contaminantes de que no pueden recibir otro uso. Ejemplo (residuos de baños, envoltura de alimentos no plásticos, colillas de cigarrillo)
+      
+      Separador
         
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.2 Documentación
@@ -272,13 +276,13 @@
           ol.lista-ol
             li 
               span.text-bold 1. 
-              | Registro ICA: Corresponde a un acto administrativo por el cual el ICA reconoce el cumplimiento de los requisitos, condiciones y procedimientos exigidos para realizar la actividad como productor y/o comercializador de material vegetal de propagación a través de vivero o huertos básicos de productores (ICA,2020)
+              | Registro ICA: corresponde a un acto administrativo por el cual el ICA reconoce el cumplimiento de los requisitos, condiciones y procedimientos exigidos para realizar la actividad como productor y/o comercializador de material vegetal de propagación a través de vivero o huertos básicos de productores (ICA,2020)
             li 
               span.text-bold 2. 
-              | Constancia Vegetal: Documento por medio del cual se certifica la calidad sanitaria, física, fisiológica y genética de uno o varios lotes de material vegetal de propagación. (ICA,2020)
+              | Constancia Vegetal: documento por medio del cual se certifica la calidad sanitaria, física, fisiológica y genética de uno o varios lotes de material vegetal de propagación. (ICA,2020)
             li 
               span.text-bold 3. 
-              | Licencia Fitosanitaria: Documento oficial expedido por el ICA o quien éste delegue, mediante el cual se autoriza la movilización interna de material vegetal dentro del territorio nacional, cuando las razones de índole sanitaria así lo exijan. (ICA,2020)
+              | Licencia Fitosanitaria: documento oficial expedido por el ICA o quien éste delegue, mediante el cual se autoriza la movilización interna de material vegetal dentro del territorio nacional, cuando las razones de índole sanitaria así lo exijan. (ICA,2020)
            
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-12.mb-3
@@ -296,19 +300,19 @@
         .col-8
           ol.lista-ol
             li 
-              span.text-bold 1. 
+              span.text-bold - 
               | Bitácora de actividades: Las bitácoras son utilizadas para el registro de las actividades realizadas, las cuales nos permiten conocer las acciones realizadas con el material vegetal con el fin de realizar seguimiento y control a las novedades presentadas. 
     
       .row.justify-content-center.align-items-center.mb-5
-        .tarjeta.tarjeta--blanca.p-4.col-10
+        .tarjeta.tarjeta--blanca.p-4.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 1 
             span  Ejemplo de bitácora de actividades diarias  
 
-        .tabla-b.col-10
+        .tabla-b.col-12
           .tabla.color_titulo_tabla
             h4.mb-0 Bitácora de actividades diarias
-          table
+          table.small
             caption Nota. Sena (2022).
             thead
               tr.jumbotron-14
@@ -334,19 +338,19 @@
         .col-8
           ol.lista-ol
             li 
-              span.text-bold 1. 
+              span.text-bold - 
               |	Registro de Siembra: La propagación del material vegetal debe ser supervisado, de acuerdo a los tiempos establecidos y condiciones necesarias para cada planta, llevar a cabo el registro de siembra permite evidenciar las novedades o modificaciones necesarias con el fin de que su crecimiento sea exitoso. 
         
       .row.justify-content-center.align-items-center.mb-5
-        .tarjeta.tarjeta--blanca.p-4.col-10
+        .tarjeta.tarjeta--blanca.p-4.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 2 
             span  Ejemplo de registro de siembras 
 
-        .tabla-b.col-10
+        .tabla-b.col-12
           .tabla.color_titulo_tabla
             h4.mb-0 Registro de siembra
-          table
+          table.small
             caption Nota. Sena (2022).
             thead
               tr.jumbotron-14
@@ -382,19 +386,19 @@
         .col-8
           ol.lista-ol
             li 
-              span.text-bold 1. 
+              span.text-bold -  
               |	Registro de Abonos y Fertilizantes: Los requerimientos nutricionales de la planta, son evidenciados en su crecimiento, color y textura de las hojas, las cuales nos permiten identificar sus necesidades y enfermedades que está desarrollando. 
                 
       .row.justify-content-center.align-items-center.mb-5
-        .tarjeta.tarjeta--blanca.p-4.col-10
+        .tarjeta.tarjeta--blanca.p-4.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 3
             span  Ejemplo de Registro de Abonos y Fertilizantes
 
-        .tabla-b.col-10
+        .tabla-b.col-12
           .tabla.color_titulo_tabla
             h4.mb-0 Registro de abonos y fertilizantes
-          table
+          table.small
             caption Nota. Sena (2022).
             thead
               tr.jumbotron-14

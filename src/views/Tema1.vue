@@ -52,6 +52,8 @@
       .col-10
         p.m-0 Por tanto, se hace necesario conocer los diferentes riesgos que se pueden presentar en el proceso de monitoreo de los diferentes métodos de propagación vegetal, conociendo los parámetros estandarizados en la normatividad, con el fin de realizar los procedimientos de la manera correcta, brindado el adecuado desarrollo de las plantas y condición fitosanitaria; toda vez sea para producción propia y/o comercialización en viveros. 
     
+    Separador
+
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 1.1  Requerimientos en la implementación de viveros y áreas de propagación vegetal
       
@@ -181,6 +183,8 @@
           img.img-t.m-auto.w-50(src='@/assets/curso/images/tema1/img_14.svg', alt='')
       .col-8
         p.m-0 Ahora bien, el monitoreo en los viveros deberá ser realizado en cada una de sus etapas, desde su proyección, documentación, implementación, y realización de las actividades de propagación de material vegetal, según el objetivo definido por el productor con el objetivo de evitar novedades en cada una de sus etapas que afecten la actividad económica, estados fitosanitarios de las plantas y los márgenes de calidad. 
+    
+    Separador
     
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
       h2 1.2 Calidad del material vegetal de propagación

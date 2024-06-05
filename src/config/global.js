@@ -121,18 +121,18 @@ export default {
         'https://www.ica.gov.co/getattachment/56d15d28-b186-498e-bc07-7a6fcf65fb2c/2020R78006.aspx',
     },
     {
-      tema: '',
+      tema: 'Cómo calcular área foliar y porcentaje de severidad de una hoja',
       referencia:
         'Agrocultivos TV (2021). Cómo calcular área foliar y porcentaje de severidad de una hoja',
       tipo: 'Video',
-      descarga: 'https://youtu.be/MXXUbL4ykYk',
+      link: 'https://youtu.be/MXXUbL4ykYk',
     },
     {
       tema: 'Acciones de mejora para el monitoreo de la propagación vegetal',
       referencia:
         'Sarandón, S. J., & Flores, C. C. (2014). Agroecología. Editorial de la Universidad Nacional de La Plata (EDULP). Facultad de Ciencias Agrarias y Forestales. ISBN: 978-950-34-1107-0 CAPÍTULO 14: Análisis y evaluación de agroecosistemas: construcción y aplicación de indicadores',
-      tipo: 'Capítulo 14',
-      descarga: 'http://sedici.unlp.edu.ar/handle/10915/37280',
+      tipo: 'Libro',
+      link: 'http://sedici.unlp.edu.ar/handle/10915/37280',
     },
   ],
   glosario: [
@@ -154,7 +154,7 @@ export default {
     {
       termino: 'Inspección',
       significado:
-        'examen visual oficial de plantas, productos vegetales u otros artículos reglamentados para determinar si hay plagas o determinar el cumplimiento con las reglamentaciones fitosanitarias',
+        'examen visual oficial de plantas, productos vegetales u otros artículos reglamentados para determinar si hay plagas o determinar el cumplimiento con las reglamentaciones fitosanitarias.',
     },
     {
       termino: 'Lote',
@@ -258,11 +258,6 @@ export default {
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
-          nombre: 'Leyson Fabian Castaño Pérez',
-          cargo: 'Soporte organizacional',
-          centro: 'Centro de Comercio y Servicios Regional Tolima',
-        },
-        {
           nombre: 'Nelson Vera',
           cargo: 'Producción audiovisual',
           centro:
@@ -312,6 +307,18 @@ export default {
         {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Luz Karime Amaya',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
+        },
+        {
+          nombre: 'Jairo Valencia Ebrat',
+          cargo: 'Validación de recursos digitales',
           centro:
             'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },

@@ -100,7 +100,7 @@
               tbody
                 tr
                   td.jumbotron-11.text-bold Productividad
-                  td Incremento de ventas en plantas de ornamentales
+                  td.text-left Incremento de ventas en plantas de ornamentales
                   td 
                     ol.lista-ol
                       li 
@@ -123,12 +123,12 @@
                       li 
                         span.text-bold - 
                         |	Bajo uso de fertilizantes orgánicos
-                  td Crecimiento de plantas con agroquímicos vs fertilizantes orgánicos
+                  td.text-left Crecimiento de plantas con agroquímicos vs fertilizantes orgánicos
                   td.jumbotron-19 Medio
                 tr
                   td.jumbotron-11.text-bold Equidad
-                  td Mala distribución de costos y ventas
-                  td Capacitación de manejo de contabilidad y finanzas
+                  td.text-left Mala distribución de costos y ventas
+                  td.text-left Capacitación de manejo de contabilidad y finanzas
                   td.jumbotron-14 Alto
                 tr
                   td.jumbotron-11.text-bold Adaptabilidad
@@ -140,12 +140,12 @@
                       li 
                         span.text-bold - 
                         |	Pérdida de prácticas ancestrales
-                  td Capacitación de trabajadores con prácticas ancestrales
+                  td.text-left Capacitación de trabajadores con prácticas ancestrales
                   td.jumbotron-14 Alto
                 tr
                   td.jumbotron-11.text-bold Autogestión
-                  td Alta dependencia de insumos externos
-                  td Costos de insumos externos por año
+                  td.text-left Alta dependencia de insumos externos
+                  td.text-left Costos de insumos externos por año
                   td.jumbotron-19 Medio
                  
         .row.justify-content-center.align-items-center.mb-5
