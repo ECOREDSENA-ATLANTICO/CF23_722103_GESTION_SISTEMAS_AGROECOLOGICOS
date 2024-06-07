@@ -17,14 +17,13 @@
               p.m-0 De acuerdo con la Resolución No.0780006 del 25/11/2009, el monitoreo y la supervisión técnica debe ser realizada por un profesional del área de conocimiento de ingeniería agrícola, agronomía, forestal, agroindustrial o demás profesiones que tenga la competencia para realizar actividades de manejo fitosanitario y producción de plantas de viveros, siendo contratado directamente por el vivero como asistente técnico y/o según corresponda la funcionalidad del mismo. 
                 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_2.png')})`}"
-            )
-            .bloque-texto-g__texto.p-4
-              p.mb-0 Además, la autoridad fitosanitaria encargada de supervisar el cumplimiento a la normatividad en los procesos de propagación del material vegetal y la documentación requerida será el Instituto Colombiano Agropecuario (ICA), quien, a través de visitas de inspección, realiza una descripción del estado del vivero, constancia, compromisos y los plazos que el titular del registro o propietario del vivero debe cumplir. (ICA,2020).
-    
+        .col-lg-8
+          .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
+            p.mb-0 Además, la autoridad fitosanitaria encargada de supervisar el cumplimiento a la normatividad en los procesos de propagación del material vegetal y la documentación requerida será el Instituto Colombiano Agropecuario (ICA), quien, a través de visitas de inspección, realiza una descripción del estado del vivero, constancia, compromisos y los plazos que el titular del registro o propietario del vivero debe cumplir. (ICA,2020).
+        .col-lg-4 
+          figure
+            img.img-t.m-auto(src='@/assets/curso/images/tema2/img_2.png', alt='')
+             
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
           .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -94,16 +93,15 @@
       
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
         h2 2.1  Monitoreo de buenas prácticas agrícolas
-        
+                            
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12
-          .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-            .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
-              p.mb-0 Las Buenas Prácticas Agrícolas (BPA), son un conjunto de principios, normas y recomendaciones técnicas aplicables a la producción, procesamiento y transporte de plantas y alimentos, orientados a cuidar la salud humana, proteger al medio ambiente y mejorar las condiciones de los trabajadores y su familia; permitiendo así disfrutar de un ambiente sostenible. 
-            .bloque-texto-g__img(
-              :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_9.png')})`, 'left':'70%'}"
-            )
-                          
+        .col-lg-9
+          .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
+            p.mb-0 Las Buenas Prácticas Agrícolas (BPA), son un conjunto de principios, normas y recomendaciones técnicas aplicables a la producción, procesamiento y transporte de plantas y alimentos, orientados a cuidar la salud humana, proteger al medio ambiente y mejorar las condiciones de los trabajadores y su familia; permitiendo así disfrutar de un ambiente sostenible. 
+        .col-lg-3 
+          figure
+            img.img-t.m-auto(src='@/assets/curso/images/tema2/img_9.png', alt='')
+                                 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-12
           .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5

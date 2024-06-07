@@ -28,13 +28,12 @@
       
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
-            .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-              .bloque-texto-g__texto.p-4.izquierda_70
-                p.mb-0 Ahora bien, los sistemas de manejo sustentables son aquellos que permanecen cambiando, los cuales deben tener la capacidad de ser productivos, de autorregularse y de transformarse, sin perder su funcionalidad; a su vez estas capacidades podrán ser analizadas mediante los atributos o propiedades sistémicas fundamentales que son productividad, resiliencia, confiabilidad, estabilidad, autogestión, equidad y adaptabilidad. (Astier, M., Masera, O. R., & Galván-Miyoshi, Y. 2008. p17-18).
-              .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`, 'left':'70.1%'}"
-              )
-        
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_3.svg', alt='')
+                .tarjeta.color-secundario.shadow-sm
+                  p.p-3.p-sm-4.p-md-5 Ahora bien, los sistemas de manejo sustentables son aquellos que permanecen cambiando, los cuales deben tener la capacidad de ser productivos, de autorregularse y de transformarse, sin perder su funcionalidad; a su vez estas capacidades podrán ser analizadas mediante los atributos o propiedades sistémicas fundamentales que son productividad, resiliencia, confiabilidad, estabilidad, autogestión, equidad y adaptabilidad. (Astier, M., Masera, O. R., & Galván-Miyoshi, Y. 2008. p17-18).
+          
         .row.justify-content-center.align-items-center.mb-5
           p.mb-4 Es así como este análisis constante aporta a la evaluación de sustentabilidad, la cual permite que, por medio de la identificación de fortalezas y debilidades, que permite realizar un análisis de los factores que pueden llegar a incidir en la adecuada sustentabilidad de los procesos de propagación. 
 
@@ -64,14 +63,14 @@
               thead
                 tr
                   th.text-center.jumbotron-14 Problemática
-                  th.text-center.jumbotron-13 Indicador
+                  th.text-center.jumbotron-14 Indicador
               tbody
                 tr
-                  td.jumbotron-12 Aumento de los hongos en las plantas de propagación. 
-                  td.jumbotron-11 Seguimiento al riego suministrado a las plantas que presentan hongo
+                  td Aumento de los hongos en las plantas de propagación. 
+                  td Seguimiento al riego suministrado a las plantas que presentan hongo
                 tr
-                  td.jumbotron-11 Vencimiento de productos fertilizantes
-                  td.jumbotron-12 Cantidad necesaria de fertilizantes x mes
+                  td Vencimiento de productos fertilizantes
+                  td Cantidad necesaria de fertilizantes x mes
 
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
@@ -99,7 +98,7 @@
                   th.jumbotron-17.texto-secundario Valor
               tbody
                 tr
-                  td.jumbotron-11.text-bold Productividad
+                  td.text-bold Productividad
                   td.text-left Incremento de ventas en plantas de ornamentales
                   td 
                     ol.lista-ol
@@ -112,9 +111,9 @@
                       li 
                         span.text-bold -
                         |	Costos de producción
-                  td.jumbotron-18 Bajo
+                  td Bajo
                 tr
-                  td.jumbotron-11.text-bold Estabilidad, resiliencia, confiabilidad
+                  td.text-bold Estabilidad, resiliencia, confiabilidad
                   td 
                     ol.lista-ol
                       li 
@@ -124,14 +123,14 @@
                         span.text-bold - 
                         |	Bajo uso de fertilizantes orgánicos
                   td.text-left Crecimiento de plantas con agroquímicos vs fertilizantes orgánicos
-                  td.jumbotron-19 Medio
+                  td Medio
                 tr
-                  td.jumbotron-11.text-bold Equidad
+                  td.text-bold Equidad
                   td.text-left Mala distribución de costos y ventas
                   td.text-left Capacitación de manejo de contabilidad y finanzas
-                  td.jumbotron-14 Alto
+                  td Alto
                 tr
-                  td.jumbotron-11.text-bold Adaptabilidad
+                  td.text-bold Adaptabilidad
                   td 
                     ol.lista-ol
                       li 
@@ -141,21 +140,20 @@
                         span.text-bold - 
                         |	Pérdida de prácticas ancestrales
                   td.text-left Capacitación de trabajadores con prácticas ancestrales
-                  td.jumbotron-14 Alto
+                  td Alto
                 tr
-                  td.jumbotron-11.text-bold Autogestión
+                  td.text-bold Autogestión
                   td.text-left Alta dependencia de insumos externos
                   td.text-left Costos de insumos externos por año
-                  td.jumbotron-19 Medio
+                  td Medio
                  
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
-            .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-              .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
-                p.mb-0 Por tanto, en lo referente a la evaluación de sustentabilidad, se tiene que, al conocer las debilidades y fortalezas de cada atributo, definido por el marco de evaluación MESMIS; se logra analizar e identificar la manera correcta de realizar un monitoreo de esa debilidad.  Dado a esto, se definen los indicadores, necesarios para dar un valor de importancia según la actividad del vivero o producto. Y para el caso específico del proceso de propagación de material vegetal, la evaluación de sustentabilidad se puede realizar, por ejemplo, a un vivero de plantas ornamentales de tipo comercial, encontrando que presenta algunas desventajas en las etapas de crecimiento de las plantas y pérdidas económicas.
-              .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_6.png')})`, 'left':'70.1%'}"
-              )
+            .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_7.svg', alt='')
+                .tarjeta.color-secundario.shadow-sm
+                  p.p-3.p-sm-4.p-md-5 Por tanto, en lo referente a la evaluación de sustentabilidad, se tiene que, al conocer las debilidades y fortalezas de cada atributo, definido por el marco de evaluación MESMIS; se logra analizar e identificar la manera correcta de realizar un monitoreo de esa debilidad.  Dado a esto, se definen los indicadores, necesarios para dar un valor de importancia según la actividad del vivero o producto. Y para el caso específico del proceso de propagación de material vegetal, la evaluación de sustentabilidad se puede realizar, por ejemplo, a un vivero de plantas ornamentales de tipo comercial, encontrando que presenta algunas desventajas en las etapas de crecimiento de las plantas y pérdidas económicas.
           
 </template>
 

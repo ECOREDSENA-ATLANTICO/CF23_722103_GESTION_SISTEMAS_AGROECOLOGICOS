@@ -22,22 +22,20 @@
               
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_3.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Y específicamente a expedido la resolución No. 0780006 del 2020, que dispone los requerimientos para el registro de viveros y/o huertos básicos destinados a la producción y comercialización de material vegetal de propagación para la siembra en el país, con el objetivo implementar las medidas establecidas en el control a la sanidad vegetal, la supervisión de las condiciones fitosanitarias de cultivos y viveros; precisado así la importancia económica y social de las plagas y enfermedades que se puedan generar en el desarrollo de estas actividades. (ICA, 2020).
-  
+        .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b__img
+              img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema1/img_3.svg', alt='')
+            .tarjeta.color-secundario.shadow-sm
+              p.p-4.p-sm-5.p-md-5.mt-4 Y específicamente a expedido la resolución No. 0780006 del 2020, que dispone los requerimientos para el registro de viveros y/o huertos básicos destinados a la producción y comercialización de material vegetal de propagación para la siembra en el país, con el objetivo implementar las medidas establecidas en el control a la sanidad vegetal, la supervisión de las condiciones fitosanitarias de cultivos y viveros; precisado así la importancia económica y social de las plagas y enfermedades que se puedan generar en el desarrollo de estas actividades. (ICA, 2020).
+      
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__texto.p-4.izquierda_70
-            p.mb-0 Para ampliar la información acerca de normatividad para el registro de viveros y/o huertos destinados a la producción y la propagación del material vegetal a través de la siembra que se lleva a cabo en el país explora la resolución No. 0780006 del 2020.
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_4.png')})`, 'left':'70%'}"
-          )
-          
+      .col-lg-9
+        .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
+          p.mb-0 Para ampliar la información acerca de normatividad para el registro de viveros y/o huertos destinados a la producción y la propagación del material vegetal a través de la siembra que se lleva a cabo en el país explora la resolución No. 0780006 del 2020.
+      .col-lg-3 
+        figure
+          img.img-t.m-auto(src='@/assets/curso/images/tema1/img_4.png', alt='')
+                
     .row.justify-content-center.align-items-center.mb-5
       p.mb-3 Debido a que el instituto Colombiano Agropecuario, también es el encargado de desarrollar políticas y planes que protejan la sanidad, producción y productividad agropecuaria del país, a través de diferentes protocolos, estos se establecen para:
       
@@ -65,16 +63,15 @@
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_6.png')})`, 'left':'70%'}"
           )
-                        
+      
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_7.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4.color-transparente
-            p.mb-0 Siendo fundamental que el diseño de los viveros se realice de acuerdo con el tipo de plantas a propagar u comercializar, ya que pueden ser forestales, frutales y ornamentales. Según Rovira (2012), entre los tipos de viveros más habituales y que pueden aportar a diferentes proyectos o necesidades de la población de la zona, se encuentran:
-
+      .col-lg-3 
+        figure
+          img.img-t.m-auto(src='@/assets/curso/images/tema1/img_7.png', alt='')
+      .col-lg-9
+        .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
+          p.mb-0 Siendo fundamental que el diseño de los viveros se realice de acuerdo con el tipo de plantas a propagar u comercializar, ya que pueden ser forestales, frutales y ornamentales. Según Rovira (2012), entre los tipos de viveros más habituales y que pueden aportar a diferentes proyectos o necesidades de la población de la zona, se encuentran:
+                  
     TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Tipos de viveros")
         .row
@@ -113,43 +110,42 @@
     p.mb-5 Adicionalmente al tipo de vivero, para la implementación requiere tener en cuenta los cultivos de zona, la temperatura y demanda de clientes; como también el espacio y ubicación del sitio de propagación tenga un fácil acceso para la población y cuente con zonas apropiadas, con una topografía que no presente deslizamientos o erosiones que puedan afectar la producción, de manera que la ubicación permita tener una zona de exposición a luz solar y adicionalmente facilite y permita acondicionar sistemas para llevar a cabo procesos como el riego y drenaje.
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12
-        .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
-            p.mb-0 Así mismo, se requiere que el lugar seleccionado que permita la propagación vegetal y espacios destinados para logística además de las instalaciones donde se presente delimitación, señalizaciones, cubiertas de luminosidad, luz solar, fuentes de agua para riego, zona segura de animales u otros agentes que dañan la producción, zonas de desinfección de calzado y lavado de manos al ingreso de cada proceso para prevenir enfermedades fitosanitarias del material vegetal de propagación, ya que todos estos son factores que influyen en el buen desarrollo de la planta.
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_12.png')})`, 'left':'70.2%'}"
-          )
-
+      .col-lg-8
+        .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
+          p.mb-0 Así mismo, se requiere que el lugar seleccionado que permita la propagación vegetal y espacios destinados para logística además de las instalaciones donde se presente delimitación, señalizaciones, cubiertas de luminosidad, luz solar, fuentes de agua para riego, zona segura de animales u otros agentes que dañan la producción, zonas de desinfección de calzado y lavado de manos al ingreso de cada proceso para prevenir enfermedades fitosanitarias del material vegetal de propagación, ya que todos estos son factores que influyen en el buen desarrollo de la planta.
+      .col-lg-4 
+        figure
+          img.img-t.m-auto(src='@/assets/curso/images/tema1/img_12.png', alt='')
+             
     p.mb-3 Es de importancia reconocer la funcionalidad de cada área que conforma los procesos de propagación vegetal donde se lleven a cabo las medidas y especificaciones necesarias para generar una sanidad en las plantas, así:
     
     //- maps
-    ImagenInfografica.color-secundario.mb-4
+    ImagenInfografica.color-acento-botones.mb-4
       template(v-slot:imagen)
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema1/img_21.svg'  alt='')
 
-      .tarjeta.color-secundario.p-3(x="34.5%" y="7.5%" numero="+")
+      .tarjeta.acordeonA.p-3(x="34.5%" y="7.5%" numero="+")
         .h5.mb-2 Área de injertación
         p.text-small Es el área donde se ubica y se protege el material vegetal de propagación como lo son las plantas madre, las cuales fueron previamente seleccionadas de acuerdo a sus aspectos fisiológicos, genéticos y de fitosanidad para reproducirlas.
 
-      .tarjeta.color-secundario.p-3(x="63.6%" y="8%" numero="+")
+      .tarjeta.acordeonA.p-3(x="63.6%" y="8%" numero="+")
         .h5.mb-2 Área de Germinación
         p.text-small Es seleccionada para el proceso de reproducción sexual (semilla) y ubicada para brindar su manejo y condición sanitaria.
 
-      .tarjeta.color-secundario.p-3(x="72%" y="54%" numero="+")
+      .tarjeta.acordeonA.p-3(x="72%" y="54%" numero="+")
         .h5.mb-2 Área de Enraizamiento
         p.text-small Espacio o áreas de terreno seleccionadas para ser cubiertas de plástico y/o polisombra para el enraizamiento de estacas, esquejes, estolones, bulbos. Debe estar libre de enfermedades y plagas.
         
-      .tarjeta.color-secundario.p-3(x="63%" y="86%" numero="+")
+      .tarjeta.acordeonA.p-3(x="63%" y="86%" numero="+")
         .h5.mb-2 Área de Crecimiento
         p.text-small son destinadas las plantas que superaron el proceso de injertación y superan una altura de 5cm, serán supervisadas de manera permanente en aspectos como riego, nutrición (abonos), insectos, hongos y bacterias que las puedan afectar; luego ser distribuidas según la necesidad.	 
         
-      .tarjeta.color-secundario.p-3(x="33%" y="86%" numero="+")
+      .tarjeta.acordeonA.p-3(x="33%" y="86%" numero="+")
         .h5.mb-2 Área de Descarte
         p.text-small se deben ubicar, las plantas definidas como no aptas por el productor y/o técnico profesional del ICA según el objetivo del vivero, las cuales normalmente presentan enfermedades, poco desarrollo en tallos y raíces, pequeña altura y condiciones genéticas desfavorables para su función.	 
         
-      .tarjeta.color-secundario.p-3(x="26%" y="54%" numero="+")
+      .tarjeta.acordeonA.p-3(x="26%" y="54%" numero="+")
         .h5.mb-2 Almácigo
         p.text-small Ubicación de plantas aptas y adecuadas para trasplantar y/o comercializar.
         
