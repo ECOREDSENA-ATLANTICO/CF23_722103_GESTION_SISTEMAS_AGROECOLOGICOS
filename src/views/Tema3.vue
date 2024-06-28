@@ -28,19 +28,19 @@
       
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
-            .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b.mb-3.align-items-center
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_3.svg', alt='')
+                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_3.svg', alt='', width="150px", height="150px")
                 .tarjeta.color-secundario.shadow-sm
                   p.p-3.p-sm-4.p-md-5 Ahora bien, los sistemas de manejo sustentables son aquellos que permanecen cambiando, los cuales deben tener la capacidad de ser productivos, de autorregularse y de transformarse, sin perder su funcionalidad; a su vez estas capacidades podrán ser analizadas mediante los atributos o propiedades sistémicas fundamentales que son productividad, resiliencia, confiabilidad, estabilidad, autogestión, equidad y adaptabilidad. (Astier, M., Masera, O. R., & Galván-Miyoshi, Y. 2008. p17-18).
           
         .row.justify-content-center.align-items-center.mb-5
           p.mb-4 Es así como este análisis constante aporta a la evaluación de sustentabilidad, la cual permite que, por medio de la identificación de fortalezas y debilidades, que permite realizar un análisis de los factores que pueden llegar a incidir en la adecuada sustentabilidad de los procesos de propagación. 
 
-          .col-2.mb-4
+          .col-lg-2.mb-4
             figure
               img.img-t.m-auto.w-50(src='@/assets/curso/images/tema3/img_4.svg', alt='')
-          .col-8.mb-4
+          .col-lg-8.mb-4
             p.m-0.mb-3 Algunas de las preguntas clave que permiten un diagnóstico son: 
             ol.lista-ol
               li 
@@ -73,14 +73,13 @@
                   td Cantidad necesaria de fertilizantes x mes
 
         .row.justify-content-center.align-items-center.mb-5
-          .col-lg-12
-            .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
-              .bloque-texto-g__texto.p-4.izquierda_70.color-transparente
-                p.mb-0 Teniendo que los indicadores serán definidos de acuerdo a las necesidades y debilidades identificadas por los actores de los procesos económicos, ambientales y sociales; y, el proceso de medición y monitoreo es definido de acuerdo a las variables más adaptables para cada actividad teniendo en cuenta factores como tiempo, análisis de información y/o aplicación de ciertas variables que permita generar un avance direccionado a la sustentabilidad. Para ello observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial, observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial.
-              .bloque-texto-g__img(
-                :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_5.png')})`, 'left':'70.1%'}"
-              )
-                            
+          .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_5.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Teniendo que los indicadores serán definidos de acuerdo a las necesidades y debilidades identificadas por los actores de los procesos económicos, ambientales y sociales; y, el proceso de medición y monitoreo es definido de acuerdo a las variables más adaptables para cada actividad teniendo en cuenta factores como tiempo, análisis de información y/o aplicación de ciertas variables que permita generar un avance direccionado a la sustentabilidad. Para ello observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial, observe el siguiente ejemplo de evaluación de sustentabilidad a un vivero de plantas ornamentales de tipo comercial.
+
         .row.justify-content-center.align-items-center.mb-5
           .tarjeta.tarjeta--blanca.p-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
@@ -149,9 +148,9 @@
                  
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-12
-            .tarjeta-avatar-b.mb-3
+            .tarjeta-avatar-b.mb-3.align-items-center
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_7.svg', alt='')
+                  img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema3/img_7.svg', alt='', width="150px", height="150px")
                 .tarjeta.color-secundario.shadow-sm
                   p.p-3.p-sm-4.p-md-5 Por tanto, en lo referente a la evaluación de sustentabilidad, se tiene que, al conocer las debilidades y fortalezas de cada atributo, definido por el marco de evaluación MESMIS; se logra analizar e identificar la manera correcta de realizar un monitoreo de esa debilidad.  Dado a esto, se definen los indicadores, necesarios para dar un valor de importancia según la actividad del vivero o producto. Y para el caso específico del proceso de propagación de material vegetal, la evaluación de sustentabilidad se puede realizar, por ejemplo, a un vivero de plantas ornamentales de tipo comercial, encontrando que presenta algunas desventajas en las etapas de crecimiento de las plantas y pérdidas económicas.
           
