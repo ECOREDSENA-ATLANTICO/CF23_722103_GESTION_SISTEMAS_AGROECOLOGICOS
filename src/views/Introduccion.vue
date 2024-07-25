@@ -15,7 +15,8 @@
         p.mb-3 En el desarrollo de este componente formativo, se permite reconocer el adecuado diligenciamiento de documentación y formatos a lo largo de todas las actividades que se realicen en la propagación vegetal, lo que permite llevar un registro y analizar los inconvenientes que se presentan para así aplicar acciones de mejora a través de mecanismos como por ejemplo el marco de evaluación de sustentabilidad y la evaluación de sustentabilidad. A continuación, se puede ampliar dicha información: 
       figure.mb-5(data-aos="fade-right")
         .video
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/SessDlEPlR8?si=bAx0Q7re6Ejj03GA" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/S3od8pDUkiY" allowfullscreen></iframe>
+       
 
 </template>
 

@@ -39,16 +39,10 @@
             .col-md-7.mb-4.mb-md-0
               h4.p-3 Porcentaje de Enraizamiento o Sobrevivencia
               p.p-3.mb-0 Esta evaluación será realizada a las plantas de una única especie, las cuales obtuvieron las mismas condiciones climáticas, nutricionales y empaque. Según Villegas Espinoza, J. P. (2016), el porcentaje de enraizamiento o sobrevivencia se determina dividiendo la cantidad de plantas en las que se apreciaba sus raíces saliendo de la bolsa o jiffy, entre la totalidad de las plantas propagadas, multiplicando ese dato por 100.
-              
-              ImagenInfografica.color-primario
-                template(v-slot:imagen)
-                  figure
-                    img.img-t.m-auto.w-80(src='@/assets/curso/images/tema2/img_26.svg'  alt='')
+           
+              figure
+                img.img-t.m-auto.w-80(src='@/assets/curso/images/tema2/img_30.svg'  alt='')
 
-                .tarjeta.p-3(x="94%" y="47%" numero="+").justify-content-center
-                  img(src='@/assets/curso/images/tema2/img_30.svg', alt='Texto que describa la imagen')
-              
-              
 
             .col-md-5
               figure
@@ -75,13 +69,10 @@
               h4.p-3 Incidencia (I)
               p.p-3.mb-3 Hace referencia al porcentaje de individuos (planta o parte de la planta) que presentan una enfermedad respecto al total, es decir, se evalúa la ausencia o presencia de enfermedad más no el nivel de esta.
 
-              ImagenInfografica.color-primario
-                template(v-slot:imagen)
-                  figure
-                    img.p-3.w-100.img-t.m-auto(src='@/assets/curso/images/tema2/img_27.svg', alt='Texto que describa la imagen')
+              figure
+                img.p-3.w-100.img-t.m-auto(src='@/assets/curso/images/tema2/img_31.svg', alt='Texto que describa la imagen')
 
-                .tarjeta.p-3(x="89%" y="47%" numero="+").justify-content-center
-                  img(src='@/assets/curso/images/tema2/img_31.svg', alt='Texto que describa la imagen')
+                
             .col-md-7
               figure
                 img.w-75.img-t.m-auto(src='@/assets/curso/images/tema2/img_6.png', alt='Texto que describa la imagen')
@@ -89,15 +80,12 @@
           .row.justify-content-center.align-items-star.p-3
             .col-md-5.mb-4.mb-md-0
               h4.p-3 Severidad (S)
-              p.p-3.mb-3 La severidad permite evaluar el nivel de la enfermedad que impacta la planta, el cual se determina a través de un porcentaje entre 0 y 100 de la superficie de la parte de la planta enferma o afectada.
+                p.p-3.mb-3 La severidad permite evaluar el nivel de la enfermedad que impacta la planta, el cual se determina a través de un porcentaje entre 0 y 100 de la superficie de la parte de la planta enferma o afectada.
 
-              ImagenInfografica.color-primario
-                template(v-slot:imagen)
-                  figure
-                  img.p-3.w-100.img-t.m-auto(src='@/assets/curso/images/tema2/img_28.svg', alt='Texto que describa la imagen')
+             
+                figure
+                  img.p-3.w-100.img-t.m-auto(src='@/assets/curso/images/tema2/img_32.svg', alt='Texto que describa la imagen')
 
-                .tarjeta.p-3(x="89%" y="47%" numero="+").justify-content-center
-                  img(src='@/assets/curso/images/tema2/img_32.svg', alt='Texto que describa la imagen')
             .col-md-7
               figure
                 img.w-75.img-t.m-auto(src='@/assets/curso/images/tema2/img_7.png', alt='Texto que describa la imagen')
@@ -207,45 +195,45 @@
           .col-lg-12
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
               .row(titulo="Protección a Trabajadores")
-                .col-3  
+                .col-lg-3.mb-3 
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_16.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 Todos los trabajadores, deberán conocer el manejo adecuado de maquinarias, agroquímicos y fertilizantes, así también primeros auxilios y atención médica al momento de evidenciar un accidente en sus labores. Además, deben contar con elementos de protección personal o individual y el botiquín para heridas mínimas.
 
               .row(titulo="Medidas de Higiene")
-                .col-3  
+                .col-lg-3.mb-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 Mantener un buen aseo del lugar, evitando residuos sólidos y líquidos en las áreas de propagación y de acceso a personas, lavado de manos por parte del personal, cuando exista la evidencia de enfermedades contagiosas evitar estar en contacto con los procesos de propagación y demás personas del vivero.
 
               .row(titulo="Ahorro y uso del agua")
-                .col-3  
+                .col-lg-3.mb-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_18.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 Se debe realizar una planificación del riego para evitar un exceso o una insuficiencia del agua en las plantas, en función de que no afecte el estado fenológico de la planta.	 
 
               .row(titulo="Contaminación de agua")
-                .col-3  
+                .col-lg-3.mb-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_16.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 El predio debe estar libre de basuras, papeles, plásticos y envases vacíos que puedan llegar a fuentes hídricas.
                   
               .row(titulo="Bodega de insumos")
-                .col-3  
+                .col-lg-3.mb-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 Debe existir un lugar previamente señalizado donde se guarden los insumos como agroquímicos y fertilizantes, los cuales deben estar debidamente separados y aislados de las semillas, plantas, forrajes, productos cosechados.
                   
               .row(titulo="Clasificación de residuos sólidos")
-                .col-3  
+                .col-lg-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_20.png', alt='Texto que describa la imagen')
-                .col-9
+                .col-lg-9
                   p.mb-0 Los residuos generados por la propagación del material vegetal y demás actividades, deberán ser clasificados según la resolución 2184 de 2019, entre orgánicos, aprovechables y no aprovechables con el fin de darles su respectivo manejo.
                       
       p.mb-5 Teniendo presente lo anterior, cabe mencionar como desde la resolución 2184 de 2019 se indica los parámetros para realizar la separación de residuos en la fuente, con un color especifico (código de colores; blanco, negro y verde), para los contenedores de basura, canecas de reciclaje y bolsas que se utilicen. Así:
@@ -476,18 +464,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-@media (max-width: 768px)
-  .img-infografica__card.img-infografica__card--selected
-    width: 120% !important
-    left: -10% !important
-    position: absolute
-
-
-.img-infografica__card.img-infografica__card--selected
-  width: 120%
-  position: absolute
-  left: 25%
-  height: 180%
-</style>
