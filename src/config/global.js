@@ -3,8 +3,8 @@ export default {
     componenteFormativo: 'Monitoreo del proceso de propagación vegetal',
     descripcionCurso:
       'En el componente “Monitoreo del proceso de propagación vegetal.”, se abordarán temáticas relacionadas con la normatividad ambiental establecida para realizar el monitoreo a la propagación vegetal, según los parámetros correspondientes de calidad.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
   },
   menuPrincipal: {
     menu: [
@@ -97,7 +97,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/722103_CF23_DU.pdf',
+        download: 'downloads/722103_CF23_DU.zip',
       },
       {
         icono: 'fas fa-download',
