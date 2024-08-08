@@ -9,9 +9,9 @@
         
         .row.align-items-center.mb-4
           .col-lg-8(data-aos="fade-left")
-            p Las acciones de mejora son establecidas, de acuerdo a las acciones correctivas o preventivas, identificadas a través de inconformidades o áreas potenciales de una actividad; que conllevan a fortalecer las áreas de oportunidad para brindar un mejor producto.
+            p Las acciones de mejora son establecidas, de acuerdo con las acciones correctivas o preventivas, identificadas a través de inconformidades o áreas potenciales de una actividad; que llevan a fortalecer las áreas de oportunidad para brindar un mejor producto.
             .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
-              p.m-0 En las actividades de monitoreo se hace necesario identificar, analizar y generar acciones de mejora, que le permita avanzar en cada uno de los procesos donde se evidencian debilidades. Teniendo por ejemplo que algunos de los métodos para evaluar los niveles de sustentabilidad en las actividades de propagación del material vegetal son el marco de evaluación de sustentabilidad con su respectivo monitoreo y evaluación de la sustentabilidad.
+              p.m-0 En las actividades de monitoreo se hace necesario identificar, analizar y generar acciones de mejora, que le permitan avanzar en cada uno de los procesos donde se evidencian debilidades. Teniendo por ejemplo que algunos de los métodos para evaluar los niveles de sustentabilidad en las actividades de propagación del material vegetal son el marco de evaluación de sustentabilidad con su respectivo monitoreo y evaluación de la sustentabilidad.
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img.img-t.m-auto(src='@/assets/curso/images/tema3/img_1.png', alt='')
@@ -23,7 +23,7 @@
                 :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_2.png')})`}"
               )
               .bloque-texto-g__texto.p-4
-                span.text-bold Marco de Evaluación de Sustentabilidad <br>
+                span.text-bold Marco de evaluación de sustentabilidad <br>
                 p.mb-0 El Marco para la Evaluación de Sistemas de Manejo incorporando Indicadores de Sustentabilidad (MESMIS), constituye a una herramienta innovadora para encarar varios de los interrogantes planteados en el área de evaluaciones de sustentabilidad, el cual presenta una estructura flexible para adaptarse a diferentes niveles de información y capacidades técnicas disponibles localmente, e implica un proceso de evaluación participativa por medio de dinámicas grupales o individuales, con una constante retroalimentación.
       
         .row.justify-content-center.align-items-center.mb-5

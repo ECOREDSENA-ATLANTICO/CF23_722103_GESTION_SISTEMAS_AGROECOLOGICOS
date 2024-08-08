@@ -176,26 +176,41 @@ export default {
     {
       referencia:
         'Acosta, N. R. (2018). Enfermedades en vivero forestal. Guía para la identificación de enfermedades fúngicas en vivero forestal y pautas para su manejo. Facultad de Ciencias Agrarias y Forestales UNLP',
-      link: '',
+      link:
+        'https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/SEDICI_53f6362bd48a838f783 0eae3364f7ae4',
     },
     {
       referencia:
         'Astier, M., Masera, O. R., & Galván-Miyoshi, Y. (2008). Evaluación de sustentabilidad: un enfoque dinámico y multidimensional (No. Sirsi) i9788461256419). Valencia: SEAE.',
-      link: '',
+      link:
+        'https://repositoriosdigitales.mincyt.gob.ar/vufind/Record/SEDICI_53f6362bd48a838f783 0eae3364f7ae4 ',
     },
     {
       referencia:
         'Noriega, R. N., Fletes, I. O., Castillo, J. F. E., Magaña, A. P., & Miguez, S. E. R. (2008). La sustentabilidad de los sistemas agrícolas con pequeña irrigación. El caso de San Pablo Actipan. Ra Ximhai, 4(2), 139-163.',
-      link: '',
+      link: 'https://raximhai.uaim.edu.mx/index.php/rx/article/view/1040 ',
     },
     {
       referencia:
         'FAO. (2012). Manual de Buenas Prácticas Agrícolas - para el Productor Hortofrutícola. 2° Edición. Oficina Regional para América Latina y el Caribe, Santiago de Chile (2012)',
-      link: '',
+      link:
+        'https://openknowledge.fao.org/server/api/core/bitstreams/5e3902bacea5-4029-ad97-dcf21cc1ec4e/content ',
     },
     {
       referencia:
         'Villegas Espinoza, J. P. (2016). Área foliar y período de enraizamiento para la propagación vegetativa de melina (Gmelina arborea Roxb.) en vivero, La Palma de Puerto Jiménez, Golfito.',
+      link: 'https://repositorio.una.ac.cr/handle/11056/13489 ',
+    },
+    {
+      referencia: 'Bakkes et al.,1994. ',
+      link: '',
+    },
+    {
+      referencia: 'Macagual, 2002. Factor fisiológico. ',
+      link: '',
+    },
+    {
+      referencia: 'Rombouts & Rivera (2014).',
       link: '',
     },
   ],
@@ -210,7 +225,7 @@ export default {
         },
         {
           nombre: 'Miguel De Jesús Paredes Maestre',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de línea de producción',
           centro:
             'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },
@@ -221,13 +236,13 @@ export default {
       autores: [
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
-          cargo: 'Responsable de Desarrollo Curricular',
+          cargo: 'Responsable de desarrollo curricular',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
         {
           nombre: 'Diana Julieth Núñez Ortegón',
-          cargo: 'Experta Temática',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicio - Regional Tolima',
         },
         {
@@ -238,7 +253,7 @@ export default {
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Asesora Metodológica',
+          cargo: 'Asesora metodológica',
           centro: 'Centro de Diseño y Metrología - Distrito Capital',
         },
         {
@@ -265,7 +280,7 @@ export default {
         },
         {
           nombre: 'Liborio de Jesús Castañeda Valencia',
-          cargo: 'Desarrollo Fullstack Junior',
+          cargo: 'Desarrollo fullstack Junior',
           centro:
             'Regional Atlántico - Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga',
         },

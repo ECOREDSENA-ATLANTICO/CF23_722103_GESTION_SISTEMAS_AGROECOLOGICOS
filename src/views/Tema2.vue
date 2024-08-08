@@ -102,6 +102,7 @@
               figure
                 img.w-75.img-t.m-auto(src='@/assets/curso/images/tema2/img_7.png', alt='Texto que describa la imagen')
 
+      p.mx-5 Ahora bien, es de recordar que, durante el monitoreo, se deben adoptar las medidas necesarias y las recomendaciones establecidas por la normatividad referentes a fitosanidad, con el objetivo de proteger el área de propagación vegetal de la contaminación, de las enfermedades o plagas evidenciadas en otras áreas; y conlleven a un incremento de afectación en otros procesos.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-2 
           figure
@@ -130,7 +131,7 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Con la implementación de las buenas prácticas agrícolas (BPA), se promueve hacer las cosas bien y dar garantía de ello, debido a que estas están enfocadas a la obtención de productos seguros y de calidad, producidos de manera sostenible, logrando beneficiar no solo a los agricultores y sus familias, sino que también a los consumidores y la población en general, por medio de actividades direccionadas a cuatro sectores o elementos que son la seguridad de las personas, el medio ambiente, la inocuidad de los alimentos y el bienestar animal.
 
-      p.mb-3 Estas prácticas agrícolas promueven condiciones que aportan al cuidado, preservación del medio ambientes, bienestar animal y seguridad de las personas, como se comparte a continuación: 
+      p.mb-3 Estas prácticas agrícolas promueven condiciones que aportan al cuidado, preservación del medio ambiente, bienestar animal y seguridad de las personas, como se comparte a continuación: 
 
       TabsC.color-acento-contenido.mb-5
         .py-3.py-md-4(titulo="Seguridad de las personas")
@@ -206,14 +207,14 @@
         .row.justify-content-center.mb-1
           .col-lg-12
             AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-              .row(titulo="Protección a Trabajadores")
+              .row(titulo="Protección a trabajadores")
                 .col-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_16.png', alt='Texto que describa la imagen')
                 .col-9
                   p.mb-0 Todos los trabajadores, deberán conocer el manejo adecuado de maquinarias, agroquímicos y fertilizantes, así también primeros auxilios y atención médica al momento de evidenciar un accidente en sus labores. Además, deben contar con elementos de protección personal o individual y el botiquín para heridas mínimas.
 
-              .row(titulo="Medidas de Higiene")
+              .row(titulo="Medidas de higiene")
                 .col-3  
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen')
@@ -246,9 +247,9 @@
                   figure
                     img.img-t.m-auto.w-75(src='@/assets/curso/images/tema2/img_20.png', alt='Texto que describa la imagen')
                 .col-9
-                  p.mb-0 Los residuos generados por la propagación del material vegetal y demás actividades, deberán ser clasificados según la resolución 2184 de 2019, entre orgánicos, aprovechables y no aprovechables con el fin de darles su respectivo manejo.
+                  p.mb-0 Los residuos generados por la propagación del material vegetal y demás actividades, deberán ser clasificados según la resolución 2184 de 2019, entre orgánicos, aprovechables y no aprovechables, con el fin de darles su respectivo manejo.
                       
-      p.mb-5 Teniendo presente lo anterior, cabe mencionar como desde la resolución 2184 de 2019 se indica los parámetros para realizar la separación de residuos en la fuente, con un color especifico (código de colores; blanco, negro y verde), para los contenedores de basura, canecas de reciclaje y bolsas que se utilicen. Así:
+      p.mb-5 Teniendo presente lo anterior, cabe mencionar como desde la resolución 2184 de 2019 se indica los parámetros para realizar la separación de residuos en la fuente, con un color específico (código de colores; blanco, negro y verde), para los contenedores de basura, canecas de reciclaje y bolsas que se utilicen. Así:
 
       .row.justify-content-center 
         .col-lg-10
@@ -258,24 +259,18 @@
                 img.img-t.m-auto.w-80(src='@/assets/curso/images/tema2/img_29.svg'  alt='')
 
             .tarjeta.color-acento-botones.p-3(x="47%" y="2%" numero="+")
-              .h5.mb-2 Residuos Aprovechables
+              .h5.mb-2 Residuos aprovechables
               p Son depositados en las canecas con color blanco, con el fin de ser aprovechados en otras actividades y/o organizaciones sin ánimo de lucro que busca obtener beneficios económicos, salud o educación con el reciclaje de estos. 
 
             .tarjeta.color-acento-botones.p-3(x="100.6%" y="90%" numero="+")
-              .h5.mb-2 Residuos Orgánicos
+              .h5.mb-2 Residuos orgánicos
               p Son depositados en las canecas con color verde y son separados debido a su componente descomponedor para ser entregado a disposición final de residuos o aprovechamiento a través de abonos orgánicos, lixiviados. Entre los cuales se encuentran (residuos de frutas y verduras, hojarasca y restos vegetales).
 
             .tarjeta.color-acento-botones.p-3(x="4%" y="92%" numero="+")
-              .h5.mb-2 Residuos No Aprovechables
+              .h5.mb-2 Residuos no Aprovechables
               p Son depositados en las canecas con color negro y son definidos como agentes contaminantes de que no pueden recibir otro uso. Ejemplo (residuos de baños, envoltura de alimentos no plásticos, colillas de cigarrillo)
           
-      .row.justify-content-center.align-items-center.my-4
-        .col-lg-2.order-2.order-lg-1 
-          figure
-            img.img-t.m-auto.w-50(src='@/assets/curso/images/tema2/img_25.svg', alt='')
-        .col-lg-8.my-3.order-1.order-lg-2
-          p.m-0 Ahora bien, el monitoreo en los viveros deberá ser realizado en cada una de sus etapas, desde su proyección, documentación, implementación, y realización de las actividades de propagación de material vegetal, según el objetivo definido por el productor con el objetivo de evitar novedades en cada una de sus etapas que afecten la actividad económica, estados fitosanitarios de las plantas y los márgenes de calidad. 
-
+      
       Separador
         
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-out-right")
@@ -303,10 +298,10 @@
               | Registro ICA: corresponde a un acto administrativo por el cual el ICA reconoce el cumplimiento de los requisitos, condiciones y procedimientos exigidos para realizar la actividad como productor y/o comercializador de material vegetal de propagación a través de vivero o huertos básicos de productores (ICA,2020)
             li 
               span.text-bold 2. 
-              | Constancia Vegetal: documento por medio del cual se certifica la calidad sanitaria, física, fisiológica y genética de uno o varios lotes de material vegetal de propagación. (ICA,2020)
+              | Constancia vegetal: documento por medio del cual se certifica la calidad sanitaria, física, fisiológica y genética de uno o varios lotes de material vegetal de propagación. (ICA,2020)
             li 
               span.text-bold 3. 
-              | Licencia Fitosanitaria: documento oficial expedido por el ICA o quien éste delegue, mediante el cual se autoriza la movilización interna de material vegetal dentro del territorio nacional, cuando las razones de índole sanitaria así lo exijan. (ICA,2020)
+              | Licencia fitosanitaria: documento oficial expedido por el ICA o quien éste delegue, mediante el cual se autoriza la movilización interna de material vegetal dentro del territorio nacional, cuando las razones de índole sanitaria así lo exijan. (ICA,2020)
            
       .row.justify-content-center.align-items-center.mb-3
         .col-lg-12.mb-3
@@ -363,7 +358,7 @@
           ol.lista-ol
             li 
               span.text-bold - 
-              |	Registro de Siembra: La propagación del material vegetal debe ser supervisado, de acuerdo a los tiempos establecidos y condiciones necesarias para cada planta, llevar a cabo el registro de siembra permite evidenciar las novedades o modificaciones necesarias con el fin de que su crecimiento sea exitoso. 
+              |	Registro de siembra: La propagación del material vegetal debe ser supervisado, de acuerdo a los tiempos establecidos y condiciones necesarias para cada planta, llevar a cabo el registro de siembra permite evidenciar las novedades o modificaciones necesarias con el fin de que su crecimiento sea exitoso. 
         
       .row.justify-content-center.align-items-center.mb-5
         .tarjeta.tarjeta--blanca.p-4.col-12
@@ -400,7 +395,7 @@
                 td 20220408SC1507
                 td Suculenta Roseta
                 td 30
-                td Se evidencio que se encontraban con bastante presencia de humedad
+                td Se evidenció que se encontraban con bastante presencia de humedad
                 td Milena Vásquez
 
       .row.justify-content-center.align-items-center.mb-5
@@ -411,13 +406,13 @@
           ol.lista-ol
             li 
               span.text-bold -  
-              |	Registro de Abonos y Fertilizantes: Los requerimientos nutricionales de la planta, son evidenciados en su crecimiento, color y textura de las hojas, las cuales nos permiten identificar sus necesidades y enfermedades que está desarrollando. 
+              |	Registro de abonos y fertilizantes: Los requerimientos nutricionales de la planta, son evidenciados en su crecimiento, color y textura de las hojas, las cuales nos permiten identificar sus necesidades y enfermedades que está desarrollando. 
                 
       .row.justify-content-center.align-items-center.mb-5
         .tarjeta.tarjeta--blanca.p-4.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 3
-            span  Ejemplo de Registro de Abonos y Fertilizantes
+            span  Ejemplo de Registro de abonos y fertilizantes
 
         .tabla-b.col-12
           .tabla.color_titulo_tabla

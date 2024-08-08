@@ -27,7 +27,7 @@
             .tarjeta-avatar-b__img
               img.img-t.m-auto.mt-3(src='@/assets/curso/images/tema1/img_3.svg', alt='')
             .tarjeta.color-secundario.shadow-sm
-              p.p-4.p-sm-5.p-md-5.mt-4 Y específicamente a expedido la resolución No. 0780006 del 2020, que dispone los requerimientos para el registro de viveros y/o huertos básicos destinados a la producción y comercialización de material vegetal de propagación para la siembra en el país, con el objetivo implementar las medidas establecidas en el control a la sanidad vegetal, la supervisión de las condiciones fitosanitarias de cultivos y viveros; precisado así la importancia económica y social de las plagas y enfermedades que se puedan generar en el desarrollo de estas actividades. (ICA, 2020).
+              p.p-4.p-sm-5.p-md-5.mt-4 Y específicamente ha expedido la resolución No. 0780006 del 2020, que dispone los requerimientos para el registro de viveros y/o huertos básicos destinados a la producción y comercialización de material vegetal de propagación para la siembra en el país, con el objetivo implementar las medidas establecidas en el control a la sanidad vegetal, la supervisión de las condiciones fitosanitarias de cultivos y viveros; precisado así la importancia económica y social de las plagas y enfermedades que se puedan generar en el desarrollo de estas actividades. (ICA, 2020).
       
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
@@ -77,7 +77,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3.p-4 Tipos de viveros
-            p.p-4 Es implementado por un tiempo y objetivo específico, adaptado en un área pequeña área para la actividad de propagación de las especies seleccionadas según su necesidad. Ejemplo (Una plantación forestal, actividades de reforestación, proyectos de áreas protegidas).
+            p.p-4 Es implementado por un tiempo y objetivo específico, adaptado en un área pequeña área para la actividad de propagación de las especies seleccionadas según su necesidad. Ejemplo: (Una plantación forestal, actividades de reforestación, proyectos de áreas protegidas).
           .col-md-6
             figure
               img.img-t.m-auto.w-75(src='@/assets/curso/images/tema1/img_8.png', alt='Texto que describa la imagen')
@@ -94,7 +94,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3.p-4 Comunales
-            p.p-4 Se realizan con fines de producción o desarrollo social en una comunidad específica; su prioridad es producir según la necesidad y actividad de la zona. Ejemplo (Viveros de escolares, familiares, veredales).
+            p.p-4 Se realizan con fines de producción o desarrollo social en una comunidad específica; su prioridad es producir según la necesidad y actividad de la zona. Ejemplo: (Viveros de escolares, familiares, veredales).
           .col-md-6
             figure
               img.img-t.m-auto.w-75(src='@/assets/curso/images/tema1/img_10.png', alt='Texto que describa la imagen')
@@ -102,7 +102,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h3.p-4 Comerciales
-            p.p-4 Su producción es para la venta y comercialización de diferentes especies de manera permanente; el cual requiere de infraestructura formal.
+            p.p-4 Su producción es para la venta y comercialización de diferentes especies de manera permanente; la cual requiere de infraestructura formal.
           .col-md-6
             figure
               img.img-t.m-auto.w-75(src='@/assets/curso/images/tema1/img_11.png', alt='Texto que describa la imagen')
@@ -129,22 +129,22 @@
 
           .tarjeta.acordeonA.p-3(x="24.3%" y="1.7%" numero="+")
             .h5.mb-2 Área de injertación
-            p.text-small Es el área donde se ubica y se protege el material vegetal de propagación como lo son las plantas madre, las cuales fueron previamente seleccionadas de acuerdo a sus aspectos fisiológicos, genéticos y de fitosanidad para reproducirlas.
+            p.text-small Es el área donde se ubica y se protege el material vegetal de propagación, como lo son las plantas madre, las cuales fueron previamente seleccionadas de acuerdo a sus aspectos fisiológicos, genéticos y de fitosanidad para reproducirlas.
 
           .tarjeta.acordeonA.p-3(x="75.6%" y="1.7%" numero="+")
-            .h5.mb-2 Área de Germinación
+            .h5.mb-2 Área de germinación
             p.text-small Es seleccionada para el proceso de reproducción sexual (semilla) y ubicada para brindar su manejo y condición sanitaria.
 
           .tarjeta.acordeonA.p-3(x="100%" y="50%" numero="+")
-            .h5.mb-2 Área de Enraizamiento
+            .h5.mb-2 Área de enraizamiento
             p.text-small Espacio o áreas de terreno seleccionadas para ser cubiertas de plástico y/o polisombra para el enraizamiento de estacas, esquejes, estolones, bulbos. Debe estar libre de enfermedades y plagas.
             
           .tarjeta.acordeonA.p-3(x="77%" y="97%" numero="+")
-            .h5.mb-2 Área de Crecimiento
-            p.text-small son destinadas las plantas que superaron el proceso de injertación y superan una altura de 5cm, serán supervisadas de manera permanente en aspectos como riego, nutrición (abonos), insectos, hongos y bacterias que las puedan afectar; luego ser distribuidas según la necesidad.	 
+            .h5.mb-2 Área de crecimiento
+            p.text-small son destinadas las plantas que superaron el proceso de injertación y superan una altura de 5 cm, serán supervisadas de manera permanente en aspectos como riego, nutrición (abonos), insectos, hongos y bacterias que las puedan afectar; luego ser distribuidas según la necesidad.	 
             
           .tarjeta.acordeonA.p-3(x="22%" y="97%" numero="+")
-            .h5.mb-2 Área de Descarte
+            .h5.mb-2 Área de descarte
             p.text-small se deben ubicar, las plantas definidas como no aptas por el productor y/o técnico profesional del ICA según el objetivo del vivero, las cuales normalmente presentan enfermedades, poco desarrollo en tallos y raíces, pequeña altura y condiciones genéticas desfavorables para su función.	 
             
           .tarjeta.acordeonA.p-3(x="0.5%" y="48%" numero="+")
@@ -162,7 +162,7 @@
               img.img-t.m-auto(src='@/assets/curso/images/tema1/img_22.svg'  alt='')
 
           .tarjeta.color-acento-contenido.p-3(x="47%" y="2%" numero="+")
-            .h5.mb-2 Área de Servicios y Oficinas
+            .h5.mb-2 Área de servicios y oficinas
             p.text-small Utilizada para la atención a clientes, procesos de compra, desarrollo de protocolos y formatos de actividades, para establecer documentación organizada, limpia y correspondiente a cada actividad, bajo condiciones de calidad en cada requerimiento solicitado por las autoridades competentes.
 
           .tarjeta.color-acento-contenido.p-3(x="96.6%" y="48%" numero="+")
@@ -171,7 +171,7 @@
 
           .tarjeta.color-acento-contenido.p-3(x="49%" y="99%" numero="+")
             .h5.mb-2 Bodega de almacenamiento
-            p.text-small Esta zona debe estar previamente identificada para las herramientas utilizadas en cada actividad de la propagación, las cuales serán almacenadas en condiciones limpias y organizadas; que permita su accesibilidad.	 
+            p.text-small Esta zona debe estar previamente identificada para las herramientas utilizadas en cada actividad de la propagación, las cuales serán almacenadas en condiciones limpias y organizadas; que permitan su accesibilidad.	 
 
           .tarjeta.color-acento-contenido.p-3(x="1%" y="50%" numero="+")
             .h5.mb-2 Área de cuarentena
@@ -195,7 +195,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/images/tema1/img_15.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 La calidad del material vegetal se define con los factores que benefician o afectan a la planta en cada una de sus funciones como: respiración, digestión, absorción de nutrientes, transpiración, fotosíntesis, enraizamiento y productividad). Al brindar los mejores factores a la planta aporta a la sostenibilidad ambiental, responsabilidad social, seguridad alimentaria y a cada uno de los procedimientos de calidad en la cadena de producción.
+          p.mb-0 La calidad del material vegetal se define con los factores que benefician o afectan a la planta en cada una de sus funciones como: respiración, digestión, absorción de nutrientes, transpiración, fotosíntesis, enraizamiento y productividad. Al brindar los mejores factores a la planta, aporta a la sostenibilidad ambiental, responsabilidad social, seguridad alimentaria y a cada uno de los procedimientos de calidad en la cadena de producción.
                  
       p.m-3.text-center Por tanto, dentro de los factores que afectan la calidad del material vegetal, se encuentran: 
          
