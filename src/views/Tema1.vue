@@ -38,7 +38,7 @@
           img.img-t.m-auto(src='@/assets/curso/images/tema1/img_4.png', alt='')
                 
     .row.justify-content-center.align-items-center.mb-5
-      p.mb-3 Debido a que el instituto Colombiano Agropecuario, también es el encargado de desarrollar políticas y planes que protejan la sanidad, producción y productividad agropecuaria del país, a través de diferentes protocolos, estos se establecen para:
+      p.mb-3 Debido a que el Instituto Colombiano Agropecuario, también es el encargado de desarrollar políticas y planes que protejan la sanidad, producción y productividad agropecuaria del país, a través de diferentes protocolos, estos se establecen para:
       
       figure.mb-3
         img.img-t.m-auto.w-80(src='@/assets/curso/images/tema1/img_20.svg', alt='')
@@ -76,7 +76,7 @@
       .py-3.py-md-4(titulo="Tipos de viveros")
         .row
           .col-md-6.mb-4.mb-md-0
-            h3.p-4 Tipos de viveros
+            h3.p-4 Temporal o volante
             p.p-4 Es implementado por un tiempo y objetivo específico, adaptado en un área pequeña área para la actividad de propagación de las especies seleccionadas según su necesidad. Ejemplo: (Una plantación forestal, actividades de reforestación, proyectos de áreas protegidas).
           .col-md-6
             figure

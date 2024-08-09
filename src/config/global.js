@@ -97,7 +97,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/722103_CF23_DU.zip',
+        download: 'downloads/722103_CF23_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -212,6 +212,10 @@ export default {
     {
       referencia: 'Rombouts & Rivera (2014).',
       link: '',
+    },
+    {
+      referencia: 'Instituto Colombiano Agropecuario. (2021.).',
+      link: 'https://www.ica.gov.co',
     },
   ],
   creditos: [

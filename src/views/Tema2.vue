@@ -255,7 +255,7 @@
               p Son depositados en las canecas con color verde y son separados debido a su componente descomponedor para ser entregado a disposición final de residuos o aprovechamiento a través de abonos orgánicos, lixiviados. Entre los cuales se encuentran (residuos de frutas y verduras, hojarasca y restos vegetales).
 
             .tarjeta.color-acento-botones.p-3(x="4%" y="92%" numero="+")
-              .h5.mb-2 Residuos no Aprovechables
+              .h5.mb-2 Residuos no aprovechables
               p Son depositados en las canecas con color negro y son definidos como agentes contaminantes de que no pueden recibir otro uso. Ejemplo (residuos de baños, envoltura de alimentos no plásticos, colillas de cigarrillo)
           
       
