@@ -70,10 +70,11 @@
           img.img-t.m-auto(src='@/assets/curso/images/tema1/img_7.png', alt='')
       .col-lg-9
         .cajon.color-acento-botones.p-3.p-sm-4.p-md-5
-          p.mb-0 Siendo fundamental que el diseño de los viveros se realice de acuerdo con el tipo de plantas a propagar u comercializar, ya que pueden ser forestales, frutales y ornamentales. Según Rovira (2012), entre los tipos de viveros más habituales y que pueden aportar a diferentes proyectos o necesidades de la población de la zona, se encuentran:
-                  
+          p.mb-0 Siendo fundamental que el diseño de los viveros se realice de acuerdo con el tipo de plantas a propagar u comercializar, ya que pueden ser forestales, frutales y ornamentales. Según Rovira (2012), entre los tipos de viveros más habituales y que pueden aportar a diferentes proyectos o necesidades de la población de la zona, se encuentran:.
+
+    h3.mb-3 Tipos de viveros          
     TabsC.color-acento-contenido.mb-5
-      .py-3.py-md-4(titulo="Tipos de viveros")
+      .py-3.py-md-4(titulo="Temporal o volante")
         .row
           .col-md-6.mb-4.mb-md-0
             h3.p-4 Temporal o volante
